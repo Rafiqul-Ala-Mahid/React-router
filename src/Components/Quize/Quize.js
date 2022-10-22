@@ -1,5 +1,4 @@
 import React from 'react';
-import {Option} from 'react-router-dom'
 
 const Quize = ({ ques}) => {
     console.log(ques)
@@ -8,7 +7,6 @@ const Quize = ({ ques}) => {
         <div>
             <p>{question}</p>
             {
-                
                 options.map(option => <li>
                     {option}
                 </li>
