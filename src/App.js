@@ -1,5 +1,4 @@
 import './App.css';
-import Header from './Components/Header/Header';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './Components/Layout/Main/Main';
 import Home from './Components/Home/Home';
